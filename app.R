@@ -145,9 +145,9 @@ ui <- dashboardPage(
       tabItem(tabName = "index_month",
               fluidRow(
                 box(width = 12, offset = 0,collapsible = TRUE,status = "primary",
-                    title = enc2utf8("pivot"),solidHeader = TRUE,
+                    title = enc2utf8("pivot"),solidHeader = TRUE,height = "1000px",
                     
-                    rpivotTableOutput("pivot")
+                    rpivotTableOutput("pivot",height="900px")
                     
                 )
               )

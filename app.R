@@ -18,7 +18,7 @@
 #devtools::install_github("timelyportfolio/d3vennR")
 #install.packages("rpivotTable")
 
-#library(shinyjs)
+library(shinyjs)
 library(shiny)
 library(shinydashboard)
 library(shinythemes)
